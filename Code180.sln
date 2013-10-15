@@ -4,6 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B468FA3-1143-4EDA-A123-E7853A936166}"
 	ProjectSection(SolutionItems) = preProject
 		index.html = index.html
+		PageWithNestedLessRules.html = PageWithNestedLessRules.html
+		SixBySixColorGrid.html = SixBySixColorGrid.html
 		Three-Css-Shapes.html = Three-Css-Shapes.html
 		Three-Shapes-With-Less.html = Three-Shapes-With-Less.html
 	EndProjectSection
@@ -11,6 +13,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{CFBF5643-00DB-42AC-9567-AE42D749FE5C}"
 	ProjectSection(SolutionItems) = preProject
 		styles\bootstrap-combined.min.css = styles\bootstrap-combined.min.css
+		styles\NestedRules.less = styles\NestedRules.less
 		styles\Three-Css-Shapes.css = styles\Three-Css-Shapes.css
 		styles\Three-Shapes.less = styles\Three-Shapes.less
 	EndProjectSection
