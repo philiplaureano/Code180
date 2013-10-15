@@ -4,10 +4,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B468FA3-1143-4EDA-A123-E7853A936166}"
 	ProjectSection(SolutionItems) = preProject
 		index.html = index.html
+		Three-Css-Shapes.html = Three-Css-Shapes.html
+		Three-Shapes-With-Less.html = Three-Shapes-With-Less.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{CFBF5643-00DB-42AC-9567-AE42D749FE5C}"
+	ProjectSection(SolutionItems) = preProject
+		styles\bootstrap-combined.min.css = styles\bootstrap-combined.min.css
+		styles\Three-Css-Shapes.css = styles\Three-Css-Shapes.css
+		styles\Three-Shapes.less = styles\Three-Shapes.less
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{6E6FE47F-A42C-4261-84D4-30EB9A66B3EF}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\bootstrap.min.js = scripts\bootstrap.min.js
+		scripts\jquery.min.js = scripts\jquery.min.js
+		scripts\knockout-2.2.1.js = scripts\knockout-2.2.1.js
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFBF5643-00DB-42AC-9567-AE42D749FE5C} = {2B468FA3-1143-4EDA-A123-E7853A936166}
+		{6E6FE47F-A42C-4261-84D4-30EB9A66B3EF} = {2B468FA3-1143-4EDA-A123-E7853A936166}
 	EndGlobalSection
 EndGlobal
