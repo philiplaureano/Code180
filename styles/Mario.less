@@ -1,0 +1,25 @@
+@red: #ff2500;
+@tan: #f8b532;
+@brown: #945200;
+@white: #ffffff;
+
+div.Shape {
+	width:45px;
+	height:45px;
+	margin: 2px;
+	background: #fefefe;
+
+	&.col-sm-1 {
+		&.clothing {
+			background: @red;
+		}
+
+		&.skin {
+			background: @brown;
+		}
+
+		&.handsAndFace {
+			background: @tan;	
+		}
+	}	
+}
